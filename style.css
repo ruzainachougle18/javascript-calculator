@@ -1,0 +1,70 @@
+.container{
+    display: grid;
+    justify-content:center;
+    position: fixed;
+    background-color:black;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap: 2px;
+    border: 10px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0 10px 40px -15px black;
+}
+
+#display{
+    grid-column: 1 / -1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 8px;
+    font-size: 4em;
+    font-weight: initial;
+    text-shadow: 1.3px 1.3px white;
+    margin: 4px;
+    color: white;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 5%;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: black;
+    transition: 0.5s;
+}
+
+#zero{
+    grid-column: span 2;
+}
+
+.appendNumber, .decimal{
+    background-color: rgb(93, 93, 93);
+    color: white;
+}
+
+.appendOperator, .equalsBtn{
+    background-color: #ff9500;
+    color: white;
+}
+
+.clearBtn, .sign, .percent{
+    background-color: rgb(169, 169, 169);
+}
+
+html{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+   
+}
