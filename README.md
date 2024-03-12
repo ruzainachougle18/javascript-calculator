@@ -3,6 +3,10 @@ Created this simple calculator using HTML, CSS, and Javascript &amp; completed O
 
 ![calculator](calculator.png)
 
+<p align="center">
+<a href="https://ruzainachougle18.github.io/javascript-calculator/" target="_blank">Live Link</a>
+</p>
+
 ### Technologies used: 
 * JavaScript
 * HTML
